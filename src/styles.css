@@ -1,0 +1,52 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  width: 400px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center; /* centers the content inside App */
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+}
+
+form {
+  display: flex;
+  justify-content: center; /* centers the children of the form horizontally */
+  align-items: center; /* centers the children of the form vertically */
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #6a994e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 10px; /* gives space between input and button */
+}
+
+button:hover {
+  background-color: #386641;
+}
+
+button:active {
+  background-color: #6a994e;
+}
